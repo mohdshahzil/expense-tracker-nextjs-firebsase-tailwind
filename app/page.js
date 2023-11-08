@@ -83,7 +83,7 @@ export default function Home() {
               }
               className='col-span-2 p-3 border mx-3'
               type='number'
-              placeholder='Enter $'
+              placeholder='Enter Rs.'
             />
             <button
               onClick={addItem}
@@ -121,6 +121,7 @@ export default function Home() {
             </div>
           )}
         </div>
+        <footer className='text-center text-gray-500 text-xl mt-4 '>Made with ❤️ by Shreenidhi, Divyanshu & Harshitha</footer>
       </div>
     </main>
   );
